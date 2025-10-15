@@ -1,0 +1,17 @@
+---
+- name: Deploy WAR to Tomcat
+  hosts: all
+  become: yes
+  tasks:
+    - name: Deploying WAR to Tomcat
+      copy:
+        src: /var/lib/jenkins/workspace/Tomact-deployment/target/mywebapp.war
+        dest: /opt/tomcat/tomcat/webapps/
+        owner: root
+        group: root
+        mode: '0644'
+
+    - name: Restart Tomcat to pick up new WAR
+      systemd:
+        name: tomcat
+        state: restarted
