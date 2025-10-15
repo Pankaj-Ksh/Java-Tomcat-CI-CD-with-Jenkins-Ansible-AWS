@@ -6,7 +6,7 @@ The automated pipeline enables seamless **Continuous Integration** and **Continu
 
 ---
 
-### ⚙️ Pipeline Automation Includes:
+## ⚙️ Pipeline Automation Includes:
 
 1. 🧩 **Source Code Fetching** — Automatically pulls the latest code from **GitHub**  
 2. ⚙️ **Build & Package** — Uses **Maven** to compile the source code and generate a `.war` file  
@@ -16,7 +16,7 @@ The automated pipeline enables seamless **Continuous Integration** and **Continu
 
 ---
 
-🌟 **Tech Stack Summary:**
+## 🌟 Tech Stack Summary:
 - 🧠 **CI/CD Tool:** Jenkins  
 - 🤖 **Automation Tool:** Ansible  
 - ☕ **Build Tool:** Maven  
@@ -32,6 +32,10 @@ The automated pipeline enables seamless **Continuous Integration** and **Continu
 - 🚀 **Automated Deployment:** Enable zero-downtime delivery by deploying WAR files to Tomcat using Ansible.  
 - 📦 **Artifact Management:** Store and version control build artifacts in AWS S3 for traceability and rollback.
 ---
+
+## Architecture
+<img width="933" height="499" alt="diagram-export-16-10-2025-00_29_31" src="https://github.com/user-attachments/assets/f32aec99-373b-4f29-86b9-2f6009b486b6" />
+
 
 ## 🔄 Workflow Summary
 
