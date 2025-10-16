@@ -31,11 +31,11 @@ The automated pipeline enables seamless **Continuous Integration** and **Continu
 - ⚙️ **Toolchain Integration:** Integrate Jenkins with Maven, AWS S3, and Ansible for build, artifact storage, and deployment automation.  
 - 🚀 **Automated Deployment:** Enable zero-downtime delivery by deploying WAR files to Tomcat using Ansible.  
 - 📦 **Artifact Management:** Store and version control build artifacts in AWS S3 for traceability and rollback.
+
 ---
 
 ## Architecture
-<img width="933" height="499" alt="diagram-export-16-10-2025-00_29_31" src="https://github.com/user-attachments/assets/f32aec99-373b-4f29-86b9-2f6009b486b6" />
-
+<img width="1013" height="563" alt="final image" src="https://github.com/user-attachments/assets/182a76f8-e2bd-4288-81d7-5f176afefb71" />
 
 ## 🔄 Workflow Summary
 
